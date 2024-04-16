@@ -1,0 +1,141 @@
+.container {
+    background-color: rgb(230, 252, 252);
+    width: 480px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    padding:5px;
+    position: relative;
+}
+
+.first_box {
+    background-color: rgb(198, 240, 184);
+    width: 470px;
+    height: 145px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pay {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.token {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: antiquewhite;
+    height: 50px;
+    border: 1px solid #a9a2a2;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+h1,
+h3,
+p {
+    margin: 0;
+    width:max-content;
+}
+
+.tokenprice {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid #a9a2a2;
+    border-radius: 30px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.alltokens {
+    overflow-y: auto;
+    height: 400px;
+}
+
+.token_name {
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.upPrice {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.connect_wallet {
+    width: 470px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(219, 75, 229);
+    height: 40px;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.connect_wallet:hover {
+    background-color: rgb(232, 179, 236);
+}
+
+.first_input {
+    background: transparent;
+    height: 40px;
+    border: none;
+    width: 200px;
+    font-size: 30px;
+}
+
+.second_input {
+    background: transparent;
+    height: 40px;
+    border: none;
+    width: 140px;
+    font-size: 30px;
+}
+
+.first_box:focus {
+    outline: none;
+    border: none;
+
+}
+
+.transfer {
+    position: absolute;
+    background-color: #bbb3b3;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 70px;
+    height: 30px;
+    margin: auto;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.transfer:hover {
+    background-color: #918e8e;
+}
